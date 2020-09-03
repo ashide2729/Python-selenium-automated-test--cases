@@ -10,7 +10,7 @@ import time
 base_url="https://www.flipkart.com"
 
 # Provide the path for the chromedriver.exe file matching your system chrome version
-driver = webdriver.Chrome("/home/ashish/Desktop/chromedriver")
+driver = webdriver.Chrome("/home/<username>/Downloads/chromedriver")
 
 # Maximize the chrome window
 driver.maximize_window()
